@@ -80,6 +80,10 @@ main {
   margin-right: 5%;
 }
 
+#news-form {
+  margin-bottom: 10px;
+}
+
 #news-results {
   display: flex;
   flex-direction: row;
