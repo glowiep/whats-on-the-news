@@ -1,0 +1,120 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+ html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*
+ * Global layout stuff
+ */
+
+body {
+  color: #545149;
+  background-color: #f4f1ec;
+  font-size: 24px;
+  font-family: "Source Sans 3", sans-serif;
+  width: 100%
+}
+
+ /*
+ * Additional CSS can be defined below
+ */
+ 
+nav {
+  width: 100%;
+  position: fixed;
+  font-family: Bungee, sans-serif;
+  background-color: rgb(246, 241, 232, 0.5);
+  background-image: url("https://transparenttextures.com/patterns/gplay.png");
+  color: #5e7ee8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-action {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#search-button {
+  box-shadow: 0px 0px 0px 3px rgba(3, 102, 214, 0.3);
+  background-color: #4056A1;
+  color:#f4f1ec;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 1.5em;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: inherit;
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#news-results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border-top: 2px solid lightgray;
+}
+
+div.news-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+  width: 80%;
+}
+
+article.single-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 50%;
+}
+
+#scroll-button {
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  right: 30px;
+  position: fixed;
+  padding: 10px; 
+  bottom: 20px;
+  background-color: red;
+  cursor: pointer;
+}
