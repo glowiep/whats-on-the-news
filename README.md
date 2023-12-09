@@ -8,6 +8,12 @@ This repository houses a dynamic and responsive Single Page Application (SPA) th
 ## Search Results
 !["News Search Results"](https://github.com/glowiep/whats-on-the-news/blob/master/docs/news-search-results.png?raw=true)
 
+## Dependencies
+
+- Node 5.10.x or above
+- jQuery: 3.4.1
+  - Included via CDN for runtime use.
+
 ## Getting Started
 1. Clone the repository to your local machine.
 2. Obtain a <a href="https://newsapi.org/" target="_blank">NewsAPI.org API key</a> and configure it in the scripts/client.js file.
